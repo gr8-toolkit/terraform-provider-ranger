@@ -10,7 +10,7 @@
 # terraform-provider-ranger
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
-[![Actions status](https://github.com/svdimchenko/terraform-provider-ranger/actions/workflows/ci.yml/badge.svg)](https://github.com/svdimchenko/terraform-provider-ranger/actions)
+[![Actions status](https://github.com/gr8-toolkit/terraform-provider-ranger/actions/workflows/ci.yml/badge.svg)](https://github.com/gr8-toolkit/terraform-provider-ranger/actions)
 
 <a href="https://github.com/apache/ranger">
   <picture>
@@ -54,7 +54,7 @@ Modify your `~/.terraformrc` file with following content.
 ```text title="~/.terraformrc"
 provider_installation {
   dev_overrides {
-    "svdimchenko/ranger" = "path-to-repo/terraform-provider-ranger/dist"
+    "gr8-toolkit/ranger" = "path-to-repo/terraform-provider-ranger/dist"
   }
   direct {}
 }

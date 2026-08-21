@@ -2,7 +2,7 @@ package main
 
 import (
   "github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-  "github.com/svdimchenko/terraform-provider-ranger/ranger"
+  "github.com/gr8-toolkit/terraform-provider-ranger/ranger"
 )
 
 func main() {
